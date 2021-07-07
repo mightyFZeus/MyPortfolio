@@ -3,7 +3,7 @@ import './Styles.css'
 import {Link} from 'react-scroll'
 import {AppBar, Toolbar, Grid,   } from '@material-ui/core'
 import MailIcon from '@material-ui/icons/Mail';
-import profile from './profile (1).png'
+import profile from '../../assets/images/profile (1).png'
 
 const Header =() =>{
   return(
@@ -19,7 +19,7 @@ const Header =() =>{
                   <Link smooth={true} duration={1000} to='skills'>Skills</Link>
                 </li>
                 <li>
-                  <Link smooth={true} duration={1000} to='about'>About</Link>
+                  <Link >About</Link>
                 </li>
                 <li>
                   <Link smooth={true} duration={1000} to='contact'>Contact</Link>

@@ -1,5 +1,8 @@
 import Header from './components/Header/Header';
+import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
+import About from './components/About/About'
 import './styles.css';
 import uuid from "react-uuid";
 const resume = [
@@ -42,6 +45,14 @@ const resume = [
     github: "https://github.com/mightyFZeus/expense-tarcker.git",
     live: "expense-trackerb.netlify.app",
     stack: "React "
+  },
+  {
+    id: uuid(),
+    title: "Expense Tracker",
+    description: "Keep tabs on your income and expenses",
+    github: "https://github.com/mightyFZeus/expense-tarcker.git",
+    live: "expense-trackerb.netlify.app",
+    stack: "React "
   }
 ];
 
@@ -50,8 +61,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <div style={{marginBottom:'10em'}}></div> */}
+      <About />
      <Projects resume={resume} />
+     <Skills />
+     <Contact />
      
     </div>
   );
