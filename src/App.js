@@ -5,11 +5,12 @@ import Contact from './components/Contact/Contact'
 import About from './components/About/About'
 import './styles.css';
 import uuid from "react-uuid";
+
 const resume = [
   {
     id: uuid(),
     title: "Covid-19 Tracker",
-    description: "Get the latstest Update on the corona virus around the world",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/Covid-19.git",
     live: "https://covidcorona19v1.netlify.app",
     stack: "React + covid19Mathro + Material ui"
@@ -17,15 +18,15 @@ const resume = [
   {
     id: uuid(),
     title: "E-commerce Shop",
-    description: "Buy products on an online store ",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies ",
     github: "https://github.com/mightyFZeus/New-shoppingCart.git",
     live: "https://shopcartb.netlify.app/",
-    stack: "React + Commercejs + stripe + Material ui"
+    stack: "React + Commercejs + stripe + MUI"
   },
   {
     id: uuid(),
     title: "Todo App",
-    description: "Put and mark completed Tasks",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/todolist.git",
     live: "https://todoreactme.netlify.app/",
     stack: "React"
@@ -33,7 +34,7 @@ const resume = [
   {
     id: uuid(),
     title: "insure Me",
-    description: "Just a landing Page",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/insure-page.git",
     live: "https://insureme.netlify.app",
     stack: "React + Styled Components"
@@ -41,7 +42,7 @@ const resume = [
   {
     id: uuid(),
     title: "Expense Tracker",
-    description: "Keep tabs on your income and expenses",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/expense-tarcker.git",
     live: "expense-trackerb.netlify.app",
     stack: "React "
@@ -49,7 +50,7 @@ const resume = [
   {
     id: uuid(),
     title: "Expense Tracker",
-    description: "Keep tabs on your income and expenses",
+    description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/expense-tarcker.git",
     live: "expense-trackerb.netlify.app",
     stack: "React "
@@ -58,15 +59,21 @@ const resume = [
 
 
 function App() {
+  
   return (
-    <div className="App">
-      <Header />
-      <About />
-     <Projects resume={resume} />
-     <Skills />
-     <Contact />
+
+    
+        <div className="App">
+         
+          <Header />
+          <About />
+          <Projects resume={resume} />
+          <Skills />
+          <Contact />
      
-    </div>
+        </div>
+    
+   
   );
 }
 

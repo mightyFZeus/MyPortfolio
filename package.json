@@ -9,15 +9,19 @@
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.4",
-    "@material-ui/icons": "4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "4.11.4",
     "email-js": "^2.0.2",
     "emailjs-com": "^3.1.0",
+    "local-storage-fallback": "^4.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "4.0.0",
     "react-scroll": "1.8.2",
-    "react-uuid": "1.0.2"
+    "react-uuid": "1.0.2",
+    "styled-components": "^5.3.0",
+    "styled-theming": "^2.2.0",
+    "styled-theming-composed": "^1.0.3"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",

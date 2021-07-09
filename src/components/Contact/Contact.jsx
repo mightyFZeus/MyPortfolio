@@ -2,7 +2,8 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { Box, TextField, Grid, Button, Typography } from "@material-ui/core";
 import useStyles from "./Styles";
-import background from '../../assets/images/contactback (1).jpg'
+import './styles.css'
+import contact from '../../assets/images/contact.svg'
 const Contact = () => {
   const classes = useStyles();
   function sendEmail(e) {
@@ -30,17 +31,20 @@ const Contact = () => {
   return (
     <>
         <div id='contact'>
-        <h1>Contact</h1>
+        <p className='heading'>CONTACT</p>
         <Typography variant='h2'>
             Get in Touch
         </Typography>
-        <h2>
+        <p>
         Want to connect with me or collaborate on projects together,
-         You can send me a message and I'll reply as soon as I can.. Thank You.
-        </h2>
+        
+        </p>
+        <p>
+        You can send me a message and I'll reply as soon as I can.. Thank You.
+        </p>
         <Grid container className={classes.about} justify="center" md={12} spacing={2}>
                 <Grid item xs={12}  md={6} >
-                   <img src={background}></img>
+                   <img className='contact-img'  src={contact}></img>
                  </Grid>
                 <Grid md={6}>
                     <Grid container  justify="space-evenly" md={12} spacing={1}>

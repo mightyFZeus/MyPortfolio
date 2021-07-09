@@ -5,5 +5,7 @@ export default makeStyles((theme) => ({
     about:{
         backgroundColor:'#f2f2f2',
         
-      }
+      },
+     
+
 }));

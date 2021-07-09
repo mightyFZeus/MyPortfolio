@@ -1,10 +1,28 @@
 .logo{
     width: 50px;
-    margin-right: 6em;
+    margin:60px
 
 }
-
-.heading{
-    margin-top: 5em;
-    margin-bottom: 2em;
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 50px;
+        margin:30px
+    
+    }
 }
+
+.logo:hover{
+    width:60px;
+    cursor: pointer;
+}
+.skills-logo{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-heading{
+    font-weight: bold;
+}
+

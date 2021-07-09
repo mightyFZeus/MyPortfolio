@@ -2,10 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
-  box: {
-    backgroundColor: "##101016",
-    height: "100vh"
-  },
+  
   formDiv: {
      position: "relative",
      left: "20%",
@@ -21,26 +18,26 @@ export default makeStyles((theme) => ({
     marginBottom: "2rem",
     backgroundColor: "#ffffff",
     "& label.Mui-focused": {
-      color: "#0e68f0"
+      color: "6c63fe"
     },
     "& label": {
       color: "black"
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "0e68f0"
+        borderColor: "#6c63fe"
       },
       "&:hover fieldset": {
-        borderColor: "0e68f0"
+        borderColor: "#6c63fe"
       },
       "&.Mui-focused fieldset": {
-        borderColor: "0e68f0"
+        borderColor: "#6c63fe"
       }
     }
   },
 
   button: {
-    backgroundColor: "#0e68f0",
+    backgroundColor: "#6c63fe",
     textTransform: "none",
     color: "black",
     width: "100%"

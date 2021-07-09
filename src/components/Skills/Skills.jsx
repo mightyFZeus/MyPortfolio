@@ -19,20 +19,20 @@ const skills = [
   },
   {
     id: uuid(),
-    title: "SEO(Search Engine Optimization)",
-    description: " I employ best SEO practices like ''Semantic HTMl'' and more on websites and projects I work  on to improve the site visibility and rankings on Google.",
+    title: "Responsive Design",
+    description:'I am passionate about responsiveness and making the websites I build look good on different devices, browsers and cross platforms using both "mobile first" approach and desktop "media queries"'
     
   },
   {
     id: uuid(),
-    title: "SEO(Search Engine Optimization)",
-    description: " I employ best SEO practices like ''Semantic HTMl'' and more on websites and projects I work  on to improve the site visibility and rankings on Google.",
+    title: "Reusable & Minimal code",
+    description: " I try my best to write as minimal code as possible by using tools like CSS Variables and writing custom utility classes.",
     
   },
   {
     id: uuid(),
-    title: "SEO(Search Engine Optimization)",
-    description: " I employ best SEO practices like ''Semantic HTMl'' and more on websites and projects I work  on to improve the site visibility and rankings on Google.",
+    title: "Great UI/UX & Accessibility",
+    description: "Making the web accessible to all users, by following the UI/UX design principles, which I picked up from solving various frontendmentor challenges.",
     
   },
 ]
@@ -41,17 +41,35 @@ const Skills =() =>{
   const classes = useStyles()
   return(
     <>
+      <div className={classes.toolbar}></div>
+      <div className={classes.toolbar}></div>
+      
       <div id='skills'>
-        <h1 className='heading'>WHY YOU SHOULD HIRE ME</h1>
-        <Grid container justify="center" md={12} spacing={2}>
+        
+        <Grid container justify="center" md={12} lg={6} spacing={2}>
           <Grid item xs={12}  md={6} >
-              <Typography>BENEFITS, why you should hire me</Typography>
+              <p>BENEFITS,</p> <span>why you should hire me</span> 
+              <span>
+              When buidling  projects,
+               I strongly adhere to these principles
+                which make my websites both unique and scaleable.
+              </span>
+              
+              
           </Grid>
-          <Grid md={6}>
+          <Grid item lg={6} md={6}>
             <Grid container  justify="space-evenly" md={12} spacing={1}>
               {skills.map((skill)=>(
-                <Grid key={skill.id}  className={classes.card}  component={Card} item xs={12} lg={2}   md={5} >
-                {skill.title}
+                <Grid key={skill.id} 
+                 className={classes.card} 
+                  component={Card} item
+                   xs={12} lg={6}   md={5}
+                   style={{paddingRight:'10px'}}
+                   style={{paddingLeft:'10px'}}  
+                   style={{paddingTop:'10px'}} 
+                   style={{paddingBottom:'10px'}} 
+                   >
+                <p className='skill-heading'>{skill.title}</p>
                 {skill.description}
                 </Grid>
               ))}
@@ -60,28 +78,14 @@ const Skills =() =>{
 
           </Grid>
           <Grid>
-                  <table>
-                    <tr>
-                    <td>
-                        <img className='logo' src={html}></img>
-                      </td>
-                      <td>
-                        <img className='logo' src={css}></img>
-                      </td>
-                      <td>
-                        <img className='logo' src={js}></img>
-                      </td>
-                      <td>
-                        <img className='logo' src={react}></img>
-                      </td>
-                      <td>
-                        <img className='logo' src={bootstrap}></img>
-                      </td>
-                      <td>
-                        <img className='logo' src={mui}></img>
-                      </td>
-                    </tr>
-                  </table>
+                  <div className='skills-logo'>
+                    <img className='logo' src={html}></img>
+                    <img className='logo' src={css}></img>
+                    <img className='logo' src={js}></img>
+                    <img className='logo' src={react}></img>
+                    <img className='logo' src={mui}></img>
+                    <img className='logo' src={bootstrap}></img>
+                  </div>
           </Grid>
           
 

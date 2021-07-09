@@ -1,0 +1,13 @@
+.heading{
+    font-weight: bolder;
+    color:#6c63fe
+}
+
+.contact-img{
+    width:700px
+}
+@media only screen and (max-width: 600px){
+    .contact-img{
+        width:300px
+    }
+}

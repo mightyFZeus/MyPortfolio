@@ -3,6 +3,10 @@ ul{
   
 }
 
+h1{
+  font-size:60px;
+}
+
 li{
   margin-right: 4em;
   color: black;
@@ -13,29 +17,28 @@ li{
 }
 
 li:hover{
-  color: #0e68f0
+  color: #6c63fe
 }
-.appbar{
-  background-color: #ffffff
-}
+
 .headerGrid{
   margin-top: 5em;
 }
 
-.description{
+/* .description{
   font-weight: bolder;
   font-size: 60px;
   margin:0;
   padding:0
+  
 
-}
+} */
 
 .header-div{
   height:100vh
 }
 
 .contact-button{
-  background-color: #0e68f0;
+  background-color:#6c63fe;
   text-transform: none;
   color: white;
   border: 1px solid #fff;
@@ -53,6 +56,6 @@ li:hover{
 
 .contact-button:hover{
   background-color: #ffffff;
-  color:#0e68f0;
-  border: 1px solid #0e68f0
+  color:#6c63fe;
+  border: 1px solid #6c63fe
 }
