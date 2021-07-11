@@ -8,6 +8,7 @@ import react from '../../assets/images/react.png'
 import bootstrap from '../../assets/images/bootstrap.png'
 import mui from '../../assets/images/material.png'
 import html from '../../assets/images/html5-2.svg'
+import CssBaseline from '@material-ui/core/CssBaseline';
 import uuid from 'react-uuid'
 
 const skills = [
@@ -41,6 +42,7 @@ const Skills =() =>{
   const classes = useStyles()
   return(
     <>
+    <CssBaseline />
       <div className={classes.toolbar}></div>
       <div className={classes.toolbar}></div>
       
