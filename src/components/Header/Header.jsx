@@ -56,7 +56,7 @@ const Header =() =>{
             </IconButton>
           <Drawer
               
-              anchor={"right"}
+              anchor={"top"}
               open={drawer}
               onClose={toggleDrawer(false)}
             >
