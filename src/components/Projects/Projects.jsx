@@ -1,6 +1,6 @@
 import React from 'react'
 import {Grid, Card, CardContent, Typography} from '@material-ui/core'
-import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider, createMuiTheme, CssBaseline } from '@material-ui/core/styles';
 import useStyles from "./Styles";
 import './styles.css'
 const theme = createMuiTheme({
@@ -16,6 +16,7 @@ const Projects =({resume}) =>{
   const classes = useStyles()
   return(
     <>
+    <CssBaseline />
     <div className={classes.toolbar}></div>
       <ThemeProvider theme={theme}>
       <div id='projects'>
