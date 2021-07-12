@@ -20,20 +20,20 @@ const Projects =({resume}) =>{
     <div className={classes.toolbar}></div>
       <ThemeProvider theme={theme}>
       <div id='projects'>
-        <p className='project-heading'>PROJECTS</p>
+        <Typography className='project-heading'>PROJECTS</Typography>
         <Grid container justify="center" spacing={2}>
             {resume.map((resume) => (
               <Grid  item key={resume.id} xs={12} sm={12} md={4} lg={4}>
                 <Card className={classes.card} >
                   <CardContent key={resume.id}>
-                    <Typography className={classes.title} variant="h4" >
+                    <Typography className={classes.title} v >
                       {resume.title}
                     </Typography>
                     
-                    <Typography  variant="body2">
+                    <Typography  >
                       {resume.description}
                     </Typography>
-                    <Typography className={classes.stack} variant="h6" >
+                    <Typography className={classes.stack}  >
                       {resume.stack}
                     </Typography>
                   

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './Styles.css'
+
 import {Link} from 'react-scroll'
 import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton, Divider   } from '@material-ui/core'
 import MenuIcon from "@material-ui/icons/Menu";
@@ -41,7 +42,9 @@ const Header =() =>{
                   <Link smooth={true} duration={1000} to='contact'>Contact</Link>
                 </li>
                 
-                <button>switch</button>
+                <li>
+               
+                </li>
               </ul>
                   
             </Toolbar>

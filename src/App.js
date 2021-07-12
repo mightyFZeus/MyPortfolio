@@ -3,15 +3,11 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import About from './components/About/About'
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import './styles.css';
-import {animateScroll as scroll} from 'react-scroll'
+import Footer from './components/Footer/Footer'
 import uuid from "react-uuid";
 
 
-const moveUp =() =>{
-  scroll.scrollToTop();
-}
 
 
 const resume = [
@@ -79,7 +75,9 @@ function App() {
           <Projects resume={resume} />
           
           <Contact />
-          <ArrowUpwardIcon className='arrowUp' onClick={moveUp} />
+          <Footer />
+          
+          
         </div>
     
    
