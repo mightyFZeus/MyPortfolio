@@ -30,16 +30,17 @@ const Contact = () => {
 
   return (
     <>
+        <div className={classes.toolbar}></div>
         <div id='contact'>
         <p className='heading'>CONTACT</p>
-        <Typography variant='h2'>
+        <p className='get'>
             Get in Touch
-        </Typography>
-        <p>
+        </p>
+        <p className='subtitle'>
         Want to connect with me or collaborate on projects together,
         
         </p>
-        <p>
+        <p className='subtitle'>
         You can send me a message and I'll reply as soon as I can.. Thank You.
         </p>
         <Grid container className={classes.about} justify="center" md={12} spacing={2}>

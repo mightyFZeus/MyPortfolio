@@ -7,11 +7,11 @@ function About() {
     return (
         <>
             <div >
-                <p className="about">About Me</p>
+                <p className="about">ABOUT ME</p>
             <Grid container className={classes.about} justify="center" md={12} spacing={2}>
                 <Grid item xs={12}  md={6} >
                     <p className='year'>1+</p> 
-                    <p>years of learning and building projects</p>
+                    <p className='year-year'>years of learning and building projects</p>
                     
                  </Grid>
                 <Grid md={6}>
@@ -19,7 +19,7 @@ function About() {
              
                         <Grid className={classes.gridDesc}  item xs={12} lg={2}   md={12} >
                             <p className='name'>Who is Bolarin Olabisi?</p>
-                            <p className='name-description'>
+                            <p className='nameDescription'>
                             I'm a Junior frontend web developer living in Ibadan,
                          Nigeria who specializes in web development and open source.
                           I am proficient in HTML and CSS and JavaScript including one of it's framework,REACT, 

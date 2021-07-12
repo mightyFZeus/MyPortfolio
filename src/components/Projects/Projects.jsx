@@ -20,7 +20,7 @@ const Projects =({resume}) =>{
     <div className={classes.toolbar}></div>
       <ThemeProvider theme={theme}>
       <div id='projects'>
-        <p className='project-heading'>Projects</p>
+        <p className='project-heading'>PROJECTS</p>
         <Grid container justify="center" spacing={2}>
             {resume.map((resume) => (
               <Grid  item key={resume.id} xs={12} sm={12} md={4} lg={4}>

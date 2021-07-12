@@ -67,8 +67,9 @@ function App() {
          
           <Header />
           <About />
-          <Projects resume={resume} />
           <Skills />
+          <Projects resume={resume} />
+          
           <Contact />
      
         </div>
