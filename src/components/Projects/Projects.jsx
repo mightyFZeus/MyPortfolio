@@ -26,14 +26,15 @@ const Projects =({resume}) =>{
               <Grid  item key={resume.id} xs={12} sm={12} md={4} lg={4}>
                 <Card className={classes.card} >
                   <CardContent key={resume.id}>
-                    <Typography variant="h4" >
+                    <Typography className={classes.title} variant="h4" >
                       {resume.title}
                     </Typography>
-                    <Typography variant="h6" >
-                      {resume.stack}
-                    </Typography>
+                    
                     <Typography  variant="body2">
                       {resume.description}
+                    </Typography>
+                    <Typography className={classes.stack} variant="h6" >
+                      {resume.stack}
                     </Typography>
                   
                   </CardContent>

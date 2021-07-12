@@ -20,6 +20,19 @@ li:hover{
   color: #6c63fe
 }
 
+@media only screen and (max-width: 600px){
+  .header-name{
+      font-size: 40px;
+  }
+  .header-desc{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
 .headerGrid{
   margin-top: 5em;
 }

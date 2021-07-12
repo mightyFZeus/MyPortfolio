@@ -86,8 +86,8 @@ const Header =() =>{
         <div className='header-div'>
           <Grid container  spacing={3} className='headerGrid'>
             <Grid item  xs={12} md={8}>
-                <h1  >Bolarin Olabisi,</h1>
-                <h2 >Junior FrontEnd Web Developer.</h2>
+                <h1 className='header-name' >Bolarin Olabisi,</h1>
+                <h2 className='header-desc' >Junior FrontEnd Web Developer.</h2>
                 <h2>Software Developer</h2>
                 
                 <a href='mailto:bolarinolabisi36@gmail.com'>

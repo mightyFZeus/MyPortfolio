@@ -5,7 +5,7 @@
 }
 @media only screen and (max-width: 600px){
     .logo{
-        width: 50px;
+        width: 30px;
         margin:30px
     
     }
@@ -42,6 +42,11 @@
 
 .hire-desc{
     margin-left: 9.2em;
+}
+@media only screen and (max-width:600px) {
+    .hire-desc{
+        margin-left: .6em;
+    }
 }
 
 .logo-skill{
