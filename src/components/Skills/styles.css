@@ -26,3 +26,28 @@
     font-weight: bold;
 }
 
+.benefits{
+    color:#6c63fe;
+    font-weight: bold;
+    margin-right: 16em;
+    margin-bottom: 0px;
+}
+
+.hire{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.hire-desc{
+    margin-left: 9.2em;
+}
+
+.logo-skill{
+    color:#6c63fe;
+    margin-bottom: 0;
+    
+}
+
+

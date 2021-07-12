@@ -35,7 +35,7 @@ const Header =() =>{
                   <Link smooth={true} duration={1000} to='skills'>Skills</Link>
                 </li>
                 <li>
-                  <Link >About</Link>
+                  <Link smooth={true} duration={1000} to='about' >About</Link>
                 </li>
                 <li>
                   <Link smooth={true} duration={1000} to='contact'>Contact</Link>
@@ -69,7 +69,7 @@ const Header =() =>{
                   <Link smooth={true} duration={1000} to='skills'>Skills</Link>
                 </ListItem>
                 <ListItem>
-                  <Link >About</Link>
+                  <Link smooth={true} duration={1000} to='about' >About</Link>
                 </ListItem>
                 <ListItem>
                   <Link smooth={true} duration={1000} to='contact'>Contact</Link>
