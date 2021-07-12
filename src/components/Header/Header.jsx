@@ -62,22 +62,29 @@ const Header =() =>{
             >
                 
               <List  >
+              <Link smooth={true} duration={1000} to='projects'>
                 <ListItem className={classes.list}>
-                  <Link smooth={true} duration={1000} to='projects'>PROJECTS</Link>
+                  PROJECTS
                 </ListItem>
+              </Link>
                 <hr />
+                <Link smooth={true} duration={1000} to='skills'>
                 <ListItem className={classes.list}>
-                  <Link smooth={true} duration={1000} to='skills'>SKILLS</Link>
-                </ListItem >
-               <hr/>
-                <ListItem className={classes.list}>
-                  <Link smooth={true} duration={1000} to='about' >ABOUT</Link>
+                  SKILLS
                 </ListItem>
+              </Link>
                <hr/>
+               <Link smooth={true} duration={1000} to='about'>
                 <ListItem className={classes.list}>
-                  <Link smooth={true} duration={1000} to='contact'>CONTACT</Link>
+                  ABOUT
                 </ListItem>
-               
+              </Link>
+               <hr/>
+               <Link smooth={true} duration={1000} to='contact'>
+                <ListItem className={classes.list}>
+                  CONTACT
+                </ListItem>
+              </Link>
               </List>
             </Drawer>
           </Toolbar>
