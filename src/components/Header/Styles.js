@@ -5,8 +5,16 @@ export default makeStyles((theme) => ({
    appbar:{
        backgroundColor:'#f2f2f2'
    },
+   
    menu: {
     marginLeft: "auto",
     marginRight: -12
   },
+  list:{
+    marginBottom:'1rem',
+    marginLeft:'1rem'
+  },
+  divide:{
+    color:'black'
+  }
 }));

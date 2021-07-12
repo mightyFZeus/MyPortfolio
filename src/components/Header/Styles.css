@@ -15,6 +15,9 @@ li{
   display:block;
   font-weight:700
 }
+hr{
+  background-color: #6c63fe;
+}
 
 li:hover{
   color: #6c63fe

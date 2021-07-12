@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './Styles.css'
 import {Link} from 'react-scroll'
-import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton   } from '@material-ui/core'
+import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton, Divider   } from '@material-ui/core'
 import MenuIcon from "@material-ui/icons/Menu";
 import MailIcon from '@material-ui/icons/Mail';
 import profile from '../../assets/images/profile (1).png'
@@ -61,19 +61,23 @@ const Header =() =>{
               onClose={toggleDrawer(false)}
             >
                 
-              <List >
-                <ListItem>
-                  <Link smooth={true} duration={1000} to='projects'>Projects</Link>
+              <List  >
+                <ListItem className={classes.list}>
+                  <Link smooth={true} duration={1000} to='projects'>PROJECTS</Link>
                 </ListItem>
-                <ListItem>
-                  <Link smooth={true} duration={1000} to='skills'>Skills</Link>
+                <hr />
+                <ListItem className={classes.list}>
+                  <Link smooth={true} duration={1000} to='skills'>SKILLS</Link>
+                </ListItem >
+               <hr/>
+                <ListItem className={classes.list}>
+                  <Link smooth={true} duration={1000} to='about' >ABOUT</Link>
                 </ListItem>
-                <ListItem>
-                  <Link smooth={true} duration={1000} to='about' >About</Link>
+               <hr/>
+                <ListItem className={classes.list}>
+                  <Link smooth={true} duration={1000} to='contact'>CONTACT</Link>
                 </ListItem>
-                <ListItem>
-                  <Link smooth={true} duration={1000} to='contact'>Contact</Link>
-                </ListItem>
+               
               </List>
             </Drawer>
           </Toolbar>

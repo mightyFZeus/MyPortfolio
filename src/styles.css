@@ -6,4 +6,17 @@
   text-align: center;
   padding: 2rem
 }
+.arrowUp{
+  color:#ffffff;
+  position: relative;
+  left:50%;
+  background-color: #6c63fe;
+  border-radius: 2px;
+}
+
+.arrowUp:hover{
+  color: #6c63fe;
+  background-color: #ffffff;
+}
+
 
