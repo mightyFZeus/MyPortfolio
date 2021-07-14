@@ -8,3 +8,22 @@
     
     
 }
+
+.project-logo-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-github, .logo-live{
+    cursor: pointer;
+}
+
+.link-project{
+    color:black
+}
+
+.link-project:hover{
+    color: #6c63fe;
+}

@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer'
 import uuid from "react-uuid";
 import Helmet from 'react-helmet'
 import favicon from './assets/images/favicon.ico'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import VisibilityIcon from '@material-ui/icons/Visibility';
 
 
 
@@ -19,7 +21,9 @@ const resume = [
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/Covid-19.git",
     live: "https://covidcorona19v1.netlify.app",
-    stack: "React + covid19Mathro + Material ui"
+    stack: "React + covid19Mathro + Material ui",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   },
   {
     id: uuid(),
@@ -27,7 +31,9 @@ const resume = [
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies ",
     github: "https://github.com/mightyFZeus/New-shoppingCart.git",
     live: "https://shopcartb.netlify.app/",
-    stack: "React + Commercejs + stripe + MUI"
+    stack: "React + Commercejs + stripe + MUI",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   },
   {
     id: uuid(),
@@ -35,7 +41,9 @@ const resume = [
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/todolist.git",
     live: "https://todoreactme.netlify.app/",
-    stack: "React"
+    stack: "React",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   },
   {
     id: uuid(),
@@ -43,23 +51,29 @@ const resume = [
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/insure-page.git",
     live: "https://insureme.netlify.app",
-    stack: "React + Styled Components"
+    stack: "React + Styled Components",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   },
   {
     id: uuid(),
     title: "Expense Tracker",
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/expense-tarcker.git",
-    live: "expense-trackerb.netlify.app",
-    stack: "React "
+    live: "https://expense-trackerb.netlify.app",
+    stack: "React ",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   },
   {
     id: uuid(),
     title: "Cryptocurrency App Tracker",
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/crypto-app.git",
-    live: "crypto-appb.netlify.app",
-    stack: "React "
+    live: "https://crypto-appb.netlify.app",
+    stack: "React ",
+    githubimage: <GitHubIcon />,
+    eye: <VisibilityIcon />
   }
 ];
 

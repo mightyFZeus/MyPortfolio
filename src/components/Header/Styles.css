@@ -75,3 +75,14 @@ li:hover{
   color:#6c63fe;
   border: 1px solid #6c63fe
 }
+
+.header-logo{
+  margin-left: 15em;
+}
+
+.header-svg{
+  width:500px;
+  position: relative;
+  right: 30%;
+  top:30%
+}

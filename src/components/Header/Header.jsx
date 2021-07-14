@@ -8,6 +8,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import profile from '../../assets/images/profile (1).png'
 import useStyles from './Styles'
 import logo from '../../assets/images/bold.png'
+import demo from '../../assets/images/demo.svg'
 
 const Header =() =>{
   const classes = useStyles()
@@ -29,7 +30,9 @@ const Header =() =>{
         <div>{isDesktop ? <div>
           <AppBar className={classes.appbar} position="fixed">
             <Toolbar>
+              <div className='header-logo'>
               <img src={logo}></img>
+              </div>
               <ul >
                 <li>
                   <Link smooth={true} duration={1000} to='projects'>Projects</Link>
@@ -99,12 +102,12 @@ const Header =() =>{
        </AppBar>
           }
         </div>
-        
         <div className={classes.toolbar}></div>
         <div className='header-div'>
           <Grid container  spacing={3} className='headerGrid'>
+         
             <Grid item  xs={12} md={8}>
-                <h1 className='header-name' >Bolarin Olabisi,</h1>
+                <h1 className='header-name' >Bolarin Olabisi</h1>
                 <h2 className='header-desc' >Junior FrontEnd Web Developer.</h2>
                 <h2>Software Developer</h2>
                 
