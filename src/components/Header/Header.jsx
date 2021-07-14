@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import './Styles.css'
 
 import {Link} from 'react-scroll'
-import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton,Typography  } from '@material-ui/core'
+import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton, } from '@material-ui/core'
 import MenuIcon from "@material-ui/icons/Menu";
 import MailIcon from '@material-ui/icons/Mail';
 import profile from '../../assets/images/profile (1).png'

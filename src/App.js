@@ -6,6 +6,8 @@ import About from './components/About/About'
 import './styles.css';
 import Footer from './components/Footer/Footer'
 import uuid from "react-uuid";
+import Helmet from 'react-helmet'
+import favicon from './assets/images/favicon.ico'
 
 
 
@@ -68,6 +70,10 @@ function App() {
 
     
         <div className="App">
+          <Helmet>
+            <title>Bolarin Olabisi</title>
+            <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
+          </Helmet>
          
           <Header />
           <About />
