@@ -4,7 +4,7 @@ import './styles.css'
 import {Grid, Card,  Typography} from '@material-ui/core'
 import css from '../../assets/images/css-3.png'
 import js from '../../assets/images/javascript-2.svg'
-import react from '../../assets/images/react.png'
+import reactimg from '../../assets/images/reactimg.png'
 import bootstrap from '../../assets/images/bootstrap.png'
 import mui from '../../assets/images/material.png'
 import html from '../../assets/images/html5-2.svg'
@@ -87,12 +87,12 @@ const Skills =() =>{
           </Grid>
           <Grid>
                   <div className='skills-logo'>
-                    <img className='logo' src={html}></img>
-                    <img className='logo' src={css}></img>
-                    <img className='logo' src={js}></img>
-                    <img className='logo' src={react}></img>
-                    <img className='logo' src={mui}></img>
-                    <img className='logo' src={bootstrap}></img>
+                    <img className='logo' alt='html' src={html}></img>
+                    <img className='logo' alt='css' src={css}></img>
+                    <img className='logo' alt='javascript' src={js}></img>
+                    <img className='logo' alt='html' src={reactimg}></img>
+                    <img className='logo'  alt='Material-UI'src={mui}></img>
+                    <img className='logo' alt='bootstrap' src={bootstrap}></img>
                   </div>
           </Grid>
           

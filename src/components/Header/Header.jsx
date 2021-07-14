@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import './Styles.css'
 
 import {Link} from 'react-scroll'
-import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton, Divider   } from '@material-ui/core'
+import {AppBar, List, ListItem, Drawer, Toolbar, Grid, IconButton,Typography  } from '@material-ui/core'
 import MenuIcon from "@material-ui/icons/Menu";
 import MailIcon from '@material-ui/icons/Mail';
 import profile from '../../assets/images/profile (1).png'
@@ -51,49 +51,51 @@ const Header =() =>{
           </AppBar>
 
         </div> : 
-        <div className={classes.menu}>
-          <AppBar className={classes.appbar} >
-          <Toolbar>
+         <AppBar className={classes.appbar} >
+         <Toolbar>
+         
+          <div className={classes.menu}>
           <IconButton  onClick={toggleDrawer(true)}>
-              <MenuIcon />
-            </IconButton>
-          <Drawer
-              
-              anchor={"top"}
-              open={drawer}
-              onClose={toggleDrawer(false)}
-            >
-                
-              <List  >
-              <Link smooth={true} duration={1000} to='projects'>
-                <ListItem className={classes.list}>
-                  PROJECTS
-                </ListItem>
-              </Link>
-                <hr />
-                <Link smooth={true} duration={1000} to='skills'>
-                <ListItem className={classes.list}>
-                  SKILLS
-                </ListItem>
-              </Link>
-               <hr/>
-               <Link smooth={true} duration={1000} to='about'>
-                <ListItem className={classes.list}>
-                  ABOUT
-                </ListItem>
-              </Link>
-               <hr/>
-               <Link smooth={true} duration={1000} to='contact'>
-                <ListItem className={classes.list}>
-                  CONTACT
-                </ListItem>
-              </Link>
-              </List>
-            </Drawer>
-          </Toolbar>
-          
-        </AppBar>
-          </div>}
+             <MenuIcon />
+           </IconButton>
+         <Drawer
+             
+             anchor={"top"}
+             open={drawer}
+             onClose={toggleDrawer(false)}
+           >
+               
+             <List   >
+             <Link smooth={true} duration={1000} to='projects'>
+               <ListItem className={classes.list}>
+                 PROJECTS
+               </ListItem>
+             </Link>
+               <hr />
+               <Link smooth={true} duration={1000} to='skills'>
+               <ListItem className={classes.list}>
+                 SKILLS
+               </ListItem>
+             </Link>
+              <hr/>
+              <Link smooth={true} duration={1000} to='about'>
+               <ListItem className={classes.list}>
+                 ABOUT
+               </ListItem>
+             </Link>
+              <hr/>
+              <Link smooth={true} duration={1000} to='contact'>
+               <ListItem className={classes.list}>
+                 CONTACT
+               </ListItem>
+             </Link>
+             </List>
+           </Drawer>
+          </div>
+         </Toolbar>
+         
+       </AppBar>
+          }
         </div>
         
         <div className={classes.toolbar}></div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid, Card, CardContent, Typography} from '@material-ui/core'
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import useStyles from "./Styles";
 import './styles.css'
 const theme = createMuiTheme({
@@ -26,7 +27,7 @@ const Projects =({resume}) =>{
               <Grid  item key={resume.id} xs={12} sm={12} md={4} lg={4}>
                 <Card className={classes.card} >
                   <CardContent key={resume.id}>
-                    <Typography className={classes.title} v >
+                    <Typography className={classes.title}  >
                       {resume.title}
                     </Typography>
                     
