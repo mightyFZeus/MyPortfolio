@@ -7,6 +7,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import MailIcon from '@material-ui/icons/Mail';
 import profile from '../../assets/images/profile (1).png'
 import useStyles from './Styles'
+import logo from '../../assets/images/bold.png'
 
 const Header =() =>{
   const classes = useStyles()
@@ -28,6 +29,7 @@ const Header =() =>{
         <div>{isDesktop ? <div>
           <AppBar className={classes.appbar} position="fixed">
             <Toolbar>
+              <img src={logo}></img>
               <ul >
                 <li>
                   <Link smooth={true} duration={1000} to='projects'>Projects</Link>
@@ -53,7 +55,7 @@ const Header =() =>{
         </div> : 
          <AppBar className={classes.appbar} >
          <Toolbar>
-         
+         <img src={logo}></img>
           <div className={classes.menu}>
           <IconButton  onClick={toggleDrawer(true)}>
              <MenuIcon />

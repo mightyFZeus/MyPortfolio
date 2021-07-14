@@ -53,10 +53,10 @@ const resume = [
   },
   {
     id: uuid(),
-    title: "Expense Tracker",
+    title: "Cryptocurrency App Tracker",
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
-    github: "https://github.com/mightyFZeus/expense-tarcker.git",
-    live: "expense-trackerb.netlify.app",
+    github: "https://github.com/mightyFZeus/crypto-app.git",
+    live: "crypto-appb.netlify.app",
     stack: "React "
   }
 ];
