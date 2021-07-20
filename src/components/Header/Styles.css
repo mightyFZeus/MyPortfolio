@@ -26,18 +26,14 @@ li:hover{
 @media only screen and (max-width: 600px){
   .header-name{
       font-size: 40px;
-      text-align: justify;
+      
   }
   .header-desc{
     font-size: 20px;
-    text-align: justify;
+    
   }
-  h2{
-    text-align: justify;
-  }
-  .contact-button{
-    margin-right: 12em;
-  }
+ 
+  
 }
 
 
