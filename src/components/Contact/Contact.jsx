@@ -31,18 +31,21 @@ const Contact = () => {
   return (
     <>
         <div className={classes.toolbar}></div>
-        <div id='contact'>
-        <p className='heading'>CONTACT</p>
-        <p className='get'>
-            Get in Touch
-        </p>
-        <p className='subtitle'>
-        Want to connect with me or collaborate on projects together,
+        <div className='contact'>
+          <p className='heading'>CONTACT</p>
+          <p className='get'>
+              Get in Touch
+          </p>
+          <div className='subtitle-div'>
+            <p className='subtitle'>
+            Want to connect with me or collaborate on projects together,
+            You can send me a message and I'll reply as soon as I can.. Thank You.
+            
+            </p>
+            
+          </div>
         
-        </p>
-        <p className='subtitle'>
-        You can send me a message and I'll reply as soon as I can.. Thank You.
-        </p>
+        </div>
         <Grid container className={classes.about} justify="center" md={12} spacing={2}>
                 <Grid item xs={12}  md={6} >
                    <img className='contact-img'  src={contact}></img>
@@ -90,7 +93,6 @@ const Contact = () => {
             </Grid>
           </Grid>
       
-        </div>
     </>
   );
 };

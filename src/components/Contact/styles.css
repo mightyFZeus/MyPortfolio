@@ -13,7 +13,14 @@
 .subtitle{
     font-size: 15px;
     
-    text-align: center;
+    
+}
+.contact{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .get{
     font-size: 60px;
