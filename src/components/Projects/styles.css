@@ -9,6 +9,11 @@
     
 }
 
+.resume-desc{
+    text-align:justify;
+    
+}
+
 .project-logo-div{
     display:flex;
     flex-direction: row;

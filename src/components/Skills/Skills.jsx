@@ -18,7 +18,7 @@ import uuid from 'react-uuid'
 const skills = [
   {
     id: uuid(),
-    title: "SEO(Search Engine Optimization)",
+    title: "Search Engine Optimization",
     description: " I employ best SEO practices like ''Semantic HTMl'' and more on websites and projects I work  on to improve the site visibility and rankings on Google.",
     image: <SearchIcon />
   },
@@ -54,13 +54,15 @@ const Skills =() =>{
         
         <Grid container justify="center" md={12} lg={6} spacing={2}>
           <Grid item xs={12}  className={classes.benefitsGrid}  md={6} >
-              <p className='benefits'>BENEFITS</p>
+              <div className='test'>
+                <p className='benefits'>BENEFITS</p>
               <p className='hire'>Why should you hire me?</p> 
               <span className='hire-desc'>
                When buidling  projects,
                I strongly adhere to these principles
                which make my websites both unique and scaleable.
               </span>
+              </div>
               
               
           </Grid>
@@ -71,14 +73,14 @@ const Skills =() =>{
                  className={classes.card} 
                   component={Card} item
                    xs={12} lg={6}   md={5}
-                   style={{paddingRight:'10px'}}
-                   style={{paddingLeft:'10px'}}  
-                   style={{paddingTop:'10px'}} 
-                   style={{paddingBottom:'10px'}} 
+                  //  style={{paddingRight:'10px'}}
+                  //  style={{paddingLeft:'10px'}}  
+                  //  style={{paddingTop:'10px'}} 
+                  //  style={{paddingBottom:'10px'}} 
                    >
                      <p className="logo-skill">{skill.image}</p>
                 <p className='skill-heading'>{skill.title}</p>
-                {skill.description}
+                <p className="skill-desc">{skill.description}</p>
                 </Grid>
               ))}
               

@@ -16,7 +16,7 @@ export default makeStyles((theme) => ({
       },
       benefitsGrid:{
         alignSelf:'center',
-        
+       
       
       }
 }));

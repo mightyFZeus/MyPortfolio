@@ -12,6 +12,8 @@ const moveUp =() =>{
 
 
 function Footer() {
+    
+    
     return (
         <>
         <div>
@@ -31,9 +33,8 @@ function Footer() {
             </div>
             <div className='copyright'>
             <p style={{fontWeight:'bold'}}>Copyright &copy; Bolarin olabisi 2021, All rights reserved</p>
-
-
             </div>
+            
         </div>
         </>
     )

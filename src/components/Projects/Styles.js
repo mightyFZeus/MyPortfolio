@@ -13,7 +13,8 @@ export default makeStyles((theme) => ({
   },
   title:{
     fontWeight:'bold',
-    fontSize:'20px'
+    fontSize:'20px',
+    marginTop:'0'
   },
   stack:{
     color:"#6c63fe"

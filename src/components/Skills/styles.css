@@ -22,15 +22,24 @@
     flex-wrap: wrap;
 }
 
+.test{
+    display:flex;
+    flex-direction:column;
+    padding: 70px;
+    
+}
+
 .skill-heading{
     font-weight: bold;
+    
 }
 
 .benefits{
     color:#6c63fe;
     font-weight: bold;
-    margin-right: 16em;
+    /* margin-right: 16em; */
     margin-bottom: 0px;
+    text-align: justify;
 }
 
 .hire{
@@ -38,14 +47,23 @@
     font-size: 25px;
     margin-top: 3px;
     margin-bottom: 5px;
+    text-align: justify;
+}
+.skill-desc{
+    text-align: justify;
+    padding: 10px;
+   
 }
 
 .hire-desc{
-    margin-left: 9.2em;
-}
-@media only screen and (max-width:600px) {
-    .hire-desc{
-        margin-left: .6em;
+    font-size:18px;
+    text-align: justify;
+} 
+ @media only screen and (max-width:600px) {
+    
+  
+    .test{
+        padding: 20px;
     }
 }
 

@@ -35,16 +35,16 @@ const Projects =({resume}) =>{
                       <p className='logo-live'>{resume.eye}</p>
                      </a>
                    </div>
-                    <Typography className={classes.title}  >
+                    <p className={classes.title}  >
                       {resume.title}
-                    </Typography>
+                    </p>
                     
-                    <Typography  >
+                    <p className='resume-desc'  >
                       {resume.description}
-                    </Typography>
-                    <Typography className={classes.stack}  >
+                    </p>
+                    <p className={classes.stack}  >
                       {resume.stack}
-                    </Typography>
+                    </p>
                   
                   </CardContent>
                 </Card>

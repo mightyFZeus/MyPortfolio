@@ -67,7 +67,7 @@ const resume = [
   },
   {
     id: uuid(),
-    title: "Cryptocurrency App Tracker",
+    title: "Cryptocurrency Tracker",
     description: "The effectiveness of digital proximity tracking tools depends on a high coverage and utilization rate among the population. Trust is a central issue, with laws on privacy and data security varying drastically throughout the world. “We must ensure that key elements of privacy are not abused or disregarded in the name of public health response for emergencies",
     github: "https://github.com/mightyFZeus/crypto-app.git",
     live: "https://crypto-appb.netlify.app",
