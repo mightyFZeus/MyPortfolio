@@ -26,9 +26,17 @@ li:hover{
 @media only screen and (max-width: 600px){
   .header-name{
       font-size: 40px;
+      text-align: justify;
   }
   .header-desc{
     font-size: 20px;
+    text-align: justify;
+  }
+  h2{
+    text-align: justify;
+  }
+  .contact-button{
+    margin-right: 12em;
   }
 }
 
@@ -58,13 +66,15 @@ li:hover{
   text-transform: none;
   color: white;
   border: 1px solid #fff;
-  padding: 15px 32px;
+  padding: 15px 10px 15px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   border-radius: 5px;
-  cursor:pointer
+  cursor:pointer;
+  
 
 }
 
