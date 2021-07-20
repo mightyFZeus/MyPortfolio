@@ -113,7 +113,7 @@ const Header =() =>{
                 
                 <a href='mailto:bolarinolabisi36@gmail.com'>
                 <button className='contact-button'>
-                  CONTACT ME <MailIcon />
+                 <span>CONTACT ME <MailIcon /></span> 
                 </button>
                 </a>
             </Grid>
