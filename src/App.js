@@ -10,7 +10,10 @@ import Helmet from 'react-helmet'
 import favicon from './assets/images/favicon.ico'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import VisibilityIcon from '@material-ui/icons/Visibility';
+import axios from 'axios'
 
+
+import Test from './components/Test/Test'
 
 
 
@@ -78,30 +81,28 @@ const resume = [
 ];
 
 
-function App() {
-  
-  return (
 
-    
-        <div className="App">
-          <Helmet>
-            <title>Bolarin Olabisi</title>
-            <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
-          </Helmet>
-         
-          <Header />
-          <About />
-          <Skills />
-          <Projects resume={resume} />
-          
-          <Contact />
-          <Footer />
-          
-          
-        </div>
-    
+function App() {    
+    return(
+      <div className="App">
+      <Helmet>
+        <title>Bolarin Olabisi</title>
+        <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
+      </Helmet>
+     
+      <Header />
+      <About />
+      <Skills />
+      <Projects resume={resume} />
+      
+      <Contact />
+      <Footer />
+      <Test />  
+    </div>
+    )      
+      
    
-  );
+ 
 }
 
 export default App;
