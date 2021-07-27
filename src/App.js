@@ -10,7 +10,7 @@ import Helmet from 'react-helmet'
 import favicon from './assets/images/favicon.ico'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import VisibilityIcon from '@material-ui/icons/Visibility';
-import axios from 'axios'
+
 
 
 import Test from './components/Test/Test'
@@ -97,7 +97,7 @@ function App() {
       
       <Contact />
       <Footer />
-      {/* <Test />   */}
+     
     </div>
     )      
       
