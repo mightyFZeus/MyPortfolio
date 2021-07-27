@@ -97,7 +97,7 @@ function App() {
       
       <Contact />
       <Footer />
-      <Test />  
+      {/* <Test />   */}
     </div>
     )      
       
